@@ -61,7 +61,6 @@
                             echo "<a href='./index.php' class='nav-link'>Welcome {$_SESSION['admin_name']}</a>"; 
                             }else{
                             echo "<a href='./index.php' class='nav-link'>Welcome Guest</a>"; 
-
                             }
                             ?>
                         </li>
@@ -152,7 +151,6 @@
         <p>All Rights Reserved © Designed by Thuan-2023</p>
     </div>
     </div>
-
 <!-- js bstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 

@@ -63,20 +63,21 @@ include_once('../functions/common_function.php');
                         id="conf_user_password" placeholder="Confirm password"
                         autocomplete="off" required="required" name="conf_user_password">
                     </div>
+                     <!-- address field -->
                     <div class="form-outline mb-4">
-                        <!-- address field -->
                         <label for="user_address" class="form-label">Address</label>
                         <input type="text" class="form-control" 
                         id="user_address" placeholder="Enter your address"
                         autocomplete="off" required="required" name="user_address">
                     </div>
+                       <!-- contact field -->
                     <div class="form-outline mb-4">
-                        <!-- contact field -->
                         <label for="user_contact" class="form-label">Contact</label>
                         <input type="text" class="form-control" 
                         id="user_contact" placeholder="Enter your phone"
                         autocomplete="off" required="required" name="user_contact">
                     </div>
+                    <!--  -->
                 <input class="btn btn-info mb-3 px-3" type="submit" name="Register" id="Register" value="Register">
                 <p class="small fw-bold mt-2 pt-1 mb-0">Already have an account ? <strong><a class="text-danger" href="./checkout.php"> Login</a></strong></p>
                 </form>
@@ -84,7 +85,7 @@ include_once('../functions/common_function.php');
         </div>
     </div>
     <?php
-   
+
     if(isset($_POST['Register'])){
         global $con;
         $user_username = $_POST['user_username'];
